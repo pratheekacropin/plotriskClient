@@ -78,47 +78,47 @@ All URIs are relative to *https://https://rn0t0s00e2.execute-api.ap-southeast-1.
 
 | Class                                | Method                                                                                     | HTTP request                           | Description |
 |--------------------------------------|--------------------------------------------------------------------------------------------|----------------------------------------|-------------|
-| *CropsControllerApi*                 | [**create_using_post**](docs/CropsControllerApi.md#create_using_post)                      | **POST** /api/v1/crops                 | create      |
-| *CropsControllerApi*                 | [**list_all_using_get**](docs/CropsControllerApi.md#list_all_using_get)                    | **GET** /api/v1/crops                  | listAll     |
-| *CustomBoundaryControllerApi*        | [**create_batch_using_post**](docs/CustomBoundaryControllerApi.md#create_batch_using_post) | **POST** /api/v1/plotboundary/batch    | createBatch |
-| *CustomBoundaryControllerApi*        | [**create_using_post1**](docs/CustomBoundaryControllerApi.md#create_using_post1)           | **POST** /api/v1/plotboundary          | create      |
-| *CustomBoundaryControllerApi*        | [**list_all_using_get1**](docs/CustomBoundaryControllerApi.md#list_all_using_get1)         | **GET** /api/v1/plotboundary           | listAll     |
-| *EntityAuditCollectionControllerApi* | [**create_using_post2**](docs/EntityAuditCollectionControllerApi.md#create_using_post2)    | **POST** /api/v1/audits                | create      |
-| *EntityAuditCollectionControllerApi* | [**list_all_using_get2**](docs/EntityAuditCollectionControllerApi.md#list_all_using_get2)  | **GET** /api/v1/audits                 | listAll     |
-| *GenericODataControllerApi*          | [**process_using_get**](docs/GenericODataControllerApi.md#process_using_get)               | **GET** /api/v1/odata/satellitemetrics | process     |
-| *WeatherDataControllerApi*           | [**create_using_post3**](docs/WeatherDataControllerApi.md#create_using_post3)              | **POST** /api/v1/weatherdata           | create      |
-| *WeatherDataControllerApi*           | [**list_all_using_get3**](docs/WeatherDataControllerApi.md#list_all_using_get3)            | **GET** /api/v1/weatherdata            | listAll     |
-| *YieldDataControllerApi*             | [**create_using_post4**](docs/YieldDataControllerApi.md#create_using_post4)                | **POST** /api/v1/yielddata             | create      |
-| *YieldDataControllerApi*             | [**list_all_using_get4**](docs/YieldDataControllerApi.md#list_all_using_get4)              | **GET** /api/v1/yielddata              | listAll     |
+| *CropsControllerApi*                 | [**create_using_post**](docs1/CropsControllerApi.md#create_using_post)                      | **POST** /api/v1/crops                 | create      |
+| *CropsControllerApi*                 | [**list_all_using_get**](docs1/CropsControllerApi.md#list_all_using_get)                    | **GET** /api/v1/crops                  | listAll     |
+| *CustomBoundaryControllerApi*        | [**create_batch_using_post**](docs1/CustomBoundaryControllerApi.md#create_batch_using_post) | **POST** /api/v1/plotboundary/batch    | createBatch |
+| *CustomBoundaryControllerApi*        | [**create_using_post1**](docs1/CustomBoundaryControllerApi.md#create_using_post1)           | **POST** /api/v1/plotboundary          | create      |
+| *CustomBoundaryControllerApi*        | [**list_all_using_get1**](docs1/CustomBoundaryControllerApi.md#list_all_using_get1)         | **GET** /api/v1/plotboundary           | listAll     |
+| *EntityAuditCollectionControllerApi* | [**create_using_post2**](docs1/EntityAuditCollectionControllerApi.md#create_using_post2)    | **POST** /api/v1/audits                | create      |
+| *EntityAuditCollectionControllerApi* | [**list_all_using_get2**](docs1/EntityAuditCollectionControllerApi.md#list_all_using_get2)  | **GET** /api/v1/audits                 | listAll     |
+| *GenericODataControllerApi*          | [**process_using_get**](docs1/GenericODataControllerApi.md#process_using_get)               | **GET** /api/v1/odata/satellitemetrics | process     |
+| *WeatherDataControllerApi*           | [**create_using_post3**](docs1/WeatherDataControllerApi.md#create_using_post3)              | **POST** /api/v1/weatherdata           | create      |
+| *WeatherDataControllerApi*           | [**list_all_using_get3**](docs1/WeatherDataControllerApi.md#list_all_using_get3)            | **GET** /api/v1/weatherdata            | listAll     |
+| *YieldDataControllerApi*             | [**create_using_post4**](docs1/YieldDataControllerApi.md#create_using_post4)                | **POST** /api/v1/yielddata             | create      |
+| *YieldDataControllerApi*             | [**list_all_using_get4**](docs1/YieldDataControllerApi.md#list_all_using_get4)              | **GET** /api/v1/yielddata              | listAll     |
 
 ## Documentation For Models
 
- - [BoundaryRequest](docs/BoundaryRequest.md)
- - [BoundaryResponse](docs/BoundaryResponse.md)
- - [CropDetail](docs/CropDetail.md)
- - [CropRequest](docs/CropRequest.md)
- - [CropResponse](docs/CropResponse.md)
- - [EntityAuditCollectionRequest](docs/EntityAuditCollectionRequest.md)
- - [EntityAuditCollectionResponse](docs/EntityAuditCollectionResponse.md)
- - [FeatureCollectionReq](docs/FeatureCollectionReq.md)
- - [FeatureCollectionRes](docs/FeatureCollectionRes.md)
- - [FeatureReq](docs/FeatureReq.md)
- - [FeatureRes](docs/FeatureRes.md)
- - [Gdd](docs/Gdd.md)
- - [Geometry](docs/Geometry.md)
- - [GeometryCollection](docs/GeometryCollection.md)
- - [LineString](docs/LineString.md)
- - [MultiLineString](docs/MultiLineString.md)
- - [MultiPoint](docs/MultiPoint.md)
- - [MultiPolygon](docs/MultiPolygon.md)
- - [Point](docs/Point.md)
- - [Polygon](docs/Polygon.md)
- - [Weather](docs/Weather.md)
- - [WeatherDataRequest](docs/WeatherDataRequest.md)
- - [WeatherDataResponse](docs/WeatherDataResponse.md)
- - [YieldRequest](docs/YieldRequest.md)
- - [YieldResponse](docs/YieldResponse.md)
- - [YieldsData](docs/YieldsData.md)
+ - [BoundaryRequest](docs1/BoundaryRequest.md)
+ - [BoundaryResponse](docs1/BoundaryResponse.md)
+ - [CropDetail](docs1/CropDetail.md)
+ - [CropRequest](docs1/CropRequest.md)
+ - [CropResponse](docs1/CropResponse.md)
+ - [EntityAuditCollectionRequest](docs1/EntityAuditCollectionRequest.md)
+ - [EntityAuditCollectionResponse](docs1/EntityAuditCollectionResponse.md)
+ - [FeatureCollectionReq](docs1/FeatureCollectionReq.md)
+ - [FeatureCollectionRes](docs1/FeatureCollectionRes.md)
+ - [FeatureReq](docs1/FeatureReq.md)
+ - [FeatureRes](docs1/FeatureRes.md)
+ - [Gdd](docs1/Gdd.md)
+ - [Geometry](docs1/Geometry.md)
+ - [GeometryCollection](docs1/GeometryCollection.md)
+ - [LineString](docs1/LineString.md)
+ - [MultiLineString](docs1/MultiLineString.md)
+ - [MultiPoint](docs1/MultiPoint.md)
+ - [MultiPolygon](docs1/MultiPolygon.md)
+ - [Point](docs1/Point.md)
+ - [Polygon](docs1/Polygon.md)
+ - [Weather](docs1/Weather.md)
+ - [WeatherDataRequest](docs1/WeatherDataRequest.md)
+ - [WeatherDataResponse](docs1/WeatherDataResponse.md)
+ - [YieldRequest](docs1/YieldRequest.md)
+ - [YieldResponse](docs1/YieldResponse.md)
+ - [YieldsData](docs1/YieldsData.md)
 
 
 ## Documentation For Authorization

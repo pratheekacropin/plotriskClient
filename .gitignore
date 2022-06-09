@@ -55,11 +55,11 @@ venv/
 *.log
 
 # Sphinx documentation
-docs/_build/
+docs1/_build/
 
 # PyBuilder
 target/
 
 #Ipython Notebook
 .ipynb_checkpoints
-/docu/_build
+/docs/_build
