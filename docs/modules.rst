@@ -1,7 +1,7 @@
-insights_plotrisk
+python_sdk_client
 =================
 
 .. toctree::
    :maxdepth: 4
 
-   insights_plotrisk
+   python_sdk_client

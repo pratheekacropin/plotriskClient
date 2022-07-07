@@ -12,20 +12,19 @@
 #
 import os
 import sys
-
 sys.path.insert(0, os.path.abspath('..'))
-import insights_plotrisk.models
-import insights_plotrisk.api
-import insights_plotrisk
+import python_sdk_client
+
 
 # -- Project information -----------------------------------------------------
 
-project = 'Plotrisk-insights'
+project = 'Insights SDK'
 copyright = '2022, Pratheeka'
 author = 'Pratheeka'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
+
 
 # -- General configuration ---------------------------------------------------
 
@@ -33,7 +32,9 @@ release = '1.0.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc', 'sphinx.ext.napoleon', 'sphinx.ext.viewcode'
+    'sphinx.ext.autodoc',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.napoleon'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -43,6 +44,7 @@ templates_path = ['_templates']
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+
 
 # -- Options for HTML output -------------------------------------------------
 
